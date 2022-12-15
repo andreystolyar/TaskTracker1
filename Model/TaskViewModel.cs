@@ -3,8 +3,9 @@ using TaskTracker.Enum;
 
 namespace TaskTracker.Model
 {
-    // TaskViewModel is the Service layer representation
-    // of the Task table
+    ///<summary>
+    /// TaskViewModel is the Service layer representation of the Task table
+    ///</summary>
     public class TaskViewModel
     {
         public int Id { get; set; }

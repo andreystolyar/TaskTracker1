@@ -25,8 +25,6 @@ namespace TaskTracker.Controller
         /// <summary>
         /// Get all rows from the Project table
         /// </summary>
-        /// <remarks>
-        /// </remarks>
         [HttpGet]
         [ProducesResponseType(StatusCodes.Status200OK,
             Type = typeof(IEnumerable<ProjectViewModel>))]
@@ -42,8 +40,6 @@ namespace TaskTracker.Controller
         /// <summary>
         /// Get a particular row from the Project table
         /// </summary>
-        /// <remarks>
-        /// </remarks>
         [HttpGet("{id:int}")]
         [ProducesResponseType(StatusCodes.Status200OK,
             Type = typeof(ProjectViewModel))]
@@ -60,8 +56,6 @@ namespace TaskTracker.Controller
         /// <summary>
         /// Add a new entry to the Project table
         /// </summary>
-        /// <remarks>
-        /// </remarks>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -89,9 +83,6 @@ namespace TaskTracker.Controller
         /// ]
         /// </code>
         /// </remarks>
-        /// <param name="id"></param>
-        /// <param name="patch"></param>
-        /// <returns></returns>
         [HttpPatch("{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -107,8 +98,6 @@ namespace TaskTracker.Controller
         /// <summary>
         /// Delete a row from the Project table
         /// </summary>
-        /// <remarks>
-        /// </remarks>
         [HttpDelete("{id:int}")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

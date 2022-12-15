@@ -7,8 +7,9 @@ using TaskTracker.Entity;
 
 namespace TaskTracker.Repository
 {
-    // Implementation of IRepository interface.
-    // Works only with classes derived from abstract class BaseEntity.
+    ///<summary>
+    /// Implementation of IRepository interface. Works only with classes derived from abstract class BaseEntity.
+    ///</summary>
     public class Repository<T> : IRepository<T>
         where T : BaseEntity
     {

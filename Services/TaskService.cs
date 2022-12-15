@@ -11,7 +11,9 @@ using TaskTracker.Services.Interfaces;
 
 namespace TaskTracker.Services
 {
-    // TaskService is a realization of the ITaskService method.
+    ///<summary>
+    /// TaskService is an implementation of the ITaskService interface.
+    ///</summary>
     public class TaskService : ITaskService
     {
         private readonly IMapper _mapper;

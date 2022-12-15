@@ -11,7 +11,9 @@ using TaskTracker.Services.Interfaces;
 
 namespace TaskTracker.Services
 {
-    // ProjectService is a realization of the IProjectService method.
+    ///<summary>
+    /// ProjectService is an implementation of the IProjectService interface.
+    ///</summary>
     public class ProjectService : IProjectService
     {
         private readonly IMapper _mapper;

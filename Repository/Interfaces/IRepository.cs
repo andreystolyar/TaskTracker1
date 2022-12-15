@@ -3,7 +3,9 @@ using System.Threading.Tasks;
 
 namespace TaskTracker.Repository.Interfaces
 {
-    // Repository interface contains methods for database working
+    ///<summary>
+    /// Repository interface contains methods for database working
+    ///</summary>
     public interface IRepository<T>
     {
         Task<IEnumerable<T>> GetAllAsync();

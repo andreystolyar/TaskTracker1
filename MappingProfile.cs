@@ -13,9 +13,11 @@ namespace TaskTracker
         /// </summary>
         public MappingProfile()
         {
-            // ProjectEntity and TaskEntity from repository level
-            // have the same properties as ProjectViewModel and TaskViewModel
-            // so we can just copy data from one to the other.
+
+        // ProjectEntity and TaskEntity from repository level
+        // have the same properties as ProjectViewModel and TaskViewModel
+        // so we can just copy data from one to the other.
+
             CreateMap<ProjectEntity, ProjectViewModel>().ReverseMap();
             CreateMap<TaskEntity, TaskViewModel>().ReverseMap();
             CreateMap<JsonPatchDocument<ProjectViewModel>, JsonPatchDocument<ProjectEntity>>().ReverseMap();

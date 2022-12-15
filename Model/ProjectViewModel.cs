@@ -6,8 +6,9 @@ using TaskTracker.Enum;
 
 namespace TaskTracker.Model
 {
-    // ProjectViewModel is the Service layer representation
-    // of the Project table
+    ///<summary>
+    /// ProjectViewModel is the Service layer representation of the Project table
+    ///</summary>
     public class ProjectViewModel
     {
         public int Id { get; set; }

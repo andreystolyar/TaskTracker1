@@ -5,8 +5,9 @@ using TaskTracker.Model;
 
 namespace TaskTracker.Services.Interfaces
 {
-    // IProjectService interface contains methods
-    // for manipulating data send by user
+    ///<summary>
+    // IProjectService interface contains methods for manipulating data send by user
+    ///</summary>
     public interface IProjectService
     {
         Task<IEnumerable<ProjectViewModel>> GetAsync();

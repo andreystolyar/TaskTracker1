@@ -3,8 +3,9 @@ using TaskTracker.Entity;
 
 namespace TaskTracker.Context
 {
-    //This class is used for interaction with database.
-
+    ///<summary>
+    ///This class is used for interaction with database.
+    ///</summary>
     public class MyDbContext : DbContext
     {
         public MyDbContext(DbContextOptions<MyDbContext> options)

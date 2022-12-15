@@ -4,7 +4,9 @@ using TaskTracker.Enum;
 
 namespace TaskTracker.Entity
 {
-    // The Project table representation for repository layer.
+    ///<summary>
+    /// The Project table representation for repository layer.
+    ///</summary>
     public sealed class ProjectEntity : BaseEntity
     {
         public ProjectEntity()
